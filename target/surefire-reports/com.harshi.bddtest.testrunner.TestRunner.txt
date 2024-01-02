@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.harshi.bddtest.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 95.86 s <<< FAILURE! -- in com.harshi.bddtest.testrunner.TestRunner
+Add to Cart.: Search a product and add the first result/product to the User basket -- Time elapsed: 0.196 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User search for a product "Lenovo Laptop"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User search for a product {string}")
+public void user_search_for_a_product(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Add the first laptop that apears in the search results to the basket")
+public void add_the_first_laptop_that_apears_in_the_search_results_to_the_basket() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User clicks on {string} link")
+public void user_clicks_on_link(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User basket should display added {string} items")
+public void user_basket_should_display_added_items(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Facebook Login Verification #1.Unsuccessful Verification of Login functionality -- Time elapsed: 0.101 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at com.harshi.bddtest.stepdefinitions.FacebookLoginSteps.i_should_be_on_the_facebook_login_page(FacebookLoginSteps.java:39)
+	at ✽.I should be on the facebook login page(file:///C:/eclips/phase2-cucumber-maven-test/src/test/resources/Features/facebook-login.feature:7)
+
